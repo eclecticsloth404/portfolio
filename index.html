@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    <link rel="stylesheet" href="style.css">
+    <title>Responsive Redesign</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navBar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <h2>Eclectic Sloth</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0" style="font-size: 20px !important">
+            <li class="nav-item" style="margin: 0px 20px;">
+              <a class="nav-link" aria-current="page" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#usability">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div id="overview" class="align-items-center">
+      <div class="row align-items-center" style="margin: 100px;">
+        <div class="col-sm-8">
+          <h1>
+            I am a <span class="auto-type"></span> <br> who is passionate about the intersection of accessibility and technology.
+          </h1>
+          <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+          <script>
+            var typed = new Typed(".auto-type", {
+              strings: ["student", "programmer", "designer"],
+              typeSpeed: 100,
+              backSpeed: 100,
+              loop: true
+            })
+          </script>
+          
+        </div>
+        <div class="col-sm-4">
+          <img src="./images/sloth.svg" alt="Very cute sloth hanging from a branch" style="max-width: 80%">
+        </div>
+      </div>
+      <div id="projects" class="text-center">
+        <h2>Check out some of my projects!</h2>
+      </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-4">
+            <div class="container">
+              <a href="https://eclecticsloth404.github.io/portfolio_personas/" target="_blank" rel="noreferrer noopener"> 
+                <img src="./images/persona.png" class="image" style="width:100%">
+                <div class="middle">
+                  <div class="text">Personas</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="container">
+              <a href="https://eclecticsloth404.github.io/portfolio_iterative/" target="_blank" rel="noreferrer noopener"> 
+                <img src="./images/iterative.png" alt="Avatar" class="image" style="width:100%">
+                <div class="middle">
+                  <div class="text">Iterative Design</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-8">
+            <div class="container">
+              <a href="https://eclecticsloth404.github.io/portfolio_responsive/" target="_blank" rel="noreferrer noopener"> 
+                <img src="./images/responsive.png" alt="Avatar" class="image" style="width:100%">
+                <div class="middle">
+                  <div class="text">Responsive Redesign</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="container">
+              <a href="https://eclecticsloth404.github.io/portfolio_development/" target="_blank" rel="noreferrer noopener"> 
+                <img src="./images/develop.png" alt="Avatar" class="image" style="width:100%">
+                <div class="middle">
+                  <div class="text">Development</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <footer class="py-3">
+    <div class="container text-center">
+      <p class="mb-0">
+        I hope you liked it
+      </p>
+    </div>
+  </footer>
+</html>
